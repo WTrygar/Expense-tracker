@@ -1,14 +1,10 @@
 # expense-tracker
 
-This template should help get you started developing with Vue 3 in Vite.
+Application that helps to track expenses, storing data on users machine, made with Vue 3 and vue-toastification for pop-ups.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+Ideas for future:
+-separate lists for monthly/weekly checkups
+-separate lists for different types of expenses, like hobby, food etc.
 
 ## Project Setup
 
