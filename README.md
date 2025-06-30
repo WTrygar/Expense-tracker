@@ -2,8 +2,8 @@
 
 Application that helps to track expenses, storing data on users machine, made with Vue 3 and vue-toastification for pop-ups.
 
-Ideas for future:
--separate lists for monthly/weekly checkups
+## Ideas for future:
+-separate lists for monthly/weekly checkups,  
 -separate lists for different types of expenses, like hobby, food etc.
 
 ## Project Setup
