@@ -15,7 +15,12 @@ import Header from "./components/Header.vue";
 import IncomeExpenses from "./components/IncomeExpenses.vue";
 import TransactionList from "./components/TransactionList.vue";
 
+import { useToast } from "vue-toastification";
+
 import { computed, ref } from "vue";
+
+const toast = useToast();
+
 const transactions = ref([
   { id: 1, text: "Flower", amount: -19.99 },
   { id: 2, text: "Salary", amount: 299.97 },
@@ -57,6 +62,7 @@ const handleTransactionSumbitted = (transactionData) => {
     text: transactionData.text,
     amount: transactionData.amount,
   });
+  toast.success("Transaction added");
 };
 
 // Generate unique ID
